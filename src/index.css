@@ -7,9 +7,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: teal;
+  padding: 100px;
+  box-sizing: border-box;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+img {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
 }
